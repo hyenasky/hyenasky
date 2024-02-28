@@ -1,12 +1,12 @@
 # hello!
 
-I'm hyenasky (aka 'will'). I'm a computer science student who is fascinated by systems software design and implementation.
+I'm hyenasky (aka 'will'). I'm a computer science student who is fascinated by computer architecture, and systems software design.
 
 ## Portfolio
 
 ### The XR/station Project
 
-[XR/station](https://xrarch.github.io) is a fully handmade RISC workstation platform, 100% designed and implemented by myself. It is inspired by my fascination with computers and a desire to learn everything about them.
+[XR/station](https://xrarch.github.io) is a fully handmade RISC workstation platform, 100% designed and implemented by myself. It was inspired in 2018 by old computers like the SGI Indy, SPARCstation 20, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them.
 
 This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, as the software half of the platform design is being completely rewritten.
 
