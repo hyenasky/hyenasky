@@ -4,16 +4,16 @@ I'm hyenasky (aka 'will'). I'm a computer science student who is fascinated by s
 
 ## Portfolio
 
-### [The XR/station Project](https://xrarch.github.io)
+### The XR/station Project
 
-This is a fully handmade RISC workstation platform, 100% designed and implemented by myself. It is inspired by my fascination with computers and a desire to learn everything about them.
+[XR/station](https://xrarch.github.io) is a fully handmade RISC workstation platform, 100% designed and implemented by myself. It is inspired by my fascination with computers and a desire to learn everything about them.
 
 This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, as the software half of the platform design is being completely rewritten.
 
 #### Old World:
 
 - [x] [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, file mapping, and other fancy features (no SMP though, and stuck at 32 bits!).
-- [x] [sdk](https://github.com/xrarch/sdk) was a development toolchain written in lua.
+- [x] [sdk](https://github.com/xrarch/sdk) was a development toolchain written in Lua.
     - [x] [dragonfruit](https://github.com/xrarch/sdk/tree/master/dragonfruit) was a (very crummy) systems programming language with RPN syntax.
     - [x] [asmfx](https://github.com/xrarch/sdk/tree/master/asmfx) was a retargetable assembler.
     - [x] [xoftool](https://github.com/xrarch/sdk/tree/master/xoftool) was a retargetable linker, with support for static and dynamic linking of a custom object file format.
@@ -32,7 +32,7 @@ I got all of that done, but I decided it sucked (mostly because it was built on 
     - [ ] [xrasm](https://github.com/xrarch/newsdk/tree/main/XrAsm) will be a retargetable assembler.
     - [ ] [xrlink](https://github.com/xrarch/newsdk/tree/main/XrLink) will be a retargetable linker, with support for static and dynamic linking of a custom object file format.
 - [x] [a4x](https://github.com/xrarch/a4x) is the firmware for XR/station, written in Jackal. It supports hot-switching to the old a3x firmware to boot "old world" operating systems.
-- [x] [xremu](https://github.com/xrarch/xremu) is the emulator for XR/station, written using C and the SDL library. It has support for simulating multiple CPUs in an SMP configuration.
+- [x] [xremu](https://github.com/xrarch/xremu) is the emulator for XR/station, written using C and the SDL library. It has support for simulating multiple CPUs in an SMP configuration. It is capable of being compiled with Emscripten to run in a web browser.
 
 ### Booting the April 1991 Windows NT Build
 
