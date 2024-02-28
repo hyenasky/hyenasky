@@ -21,7 +21,7 @@ This project has a pretty ludicrous scope of subprojects. These subprojects are 
 - [x] [aisix](https://github.com/xrarch/aisix) was an early attempt to write a UNIXy operating system. It supported preemptive multitasking.
 - [x] **emu** was an early emulator written in Lua, using the Love2D framework.
 
-I got all of that done, but I decided it sucked (mostly because it was built on a foundation from when I was about 15 years old), so I've decided to rewrite everything, which amounts to nearly 150,000 lines of code. This is the progress of that:
+I got all of that done, but unfortunately, the largest parts were created with a very, very bad programming language that I created when I was 15 years old. It unfortunately now amounts to about 150,000 lines, so rewriting it obviously isn't an option. SIKE! Around March 2023, I decided to do a new self-hosted toolchain and rewrite everything using that. Here's the progress:
 
 #### New World:
 
@@ -41,3 +41,7 @@ In November 2023, ex-Microsoft engineer Jeff Parsons ([@jeffpar](https://github.
 Investigation revealed that this NT build was built for the MIPS R3000 processor, making it the only known build of Windows to run on a 32-bit-only MIPS chip.
 
 In the span of about 5 days, I was able to jerry-rig a [machine in MAME](https://github.com/hyenasky/mame-r3kjazz) for the "R3000 Jazz" internal development board that this NT build ran on, port the ARC firmware to the R3000 chip and get it to run, and successfully boot the [earliest Windows NT build](https://betawiki.net/wiki/Windows_NT_3.1_April_1991_build) currently known. I did this work almost single-handedly except for some last minute contributions by [@substanc3-dev](https://github.com/substanc3-dev), who created a script to work around a bug in VirtualBox's serial emulation that was preventing the NT kernel debugger from operating.
+
+<img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/arc3000.png" width="1024">
+<img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/aprilntboot.png" width="640">
+<img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/aprilntrunning.png" width="1024">
