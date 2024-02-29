@@ -4,13 +4,13 @@ I'm hyenasky (aka Will). I'm a computer science student and I'm fascinated by co
 
 ## The XR/station Project
 
-[XR/station](https://xrarch.github.io) is a fully handmade computer platform, 100% designed and implemented by myself. It began in 2018 after I was inspired by old computers like the SGI Indy, SPARCstation, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them.
+[XR/station](https://xrarch.github.io) is a fully handmade computer platform, 100% designed and implemented by myself. It began in 2018 after I was inspired by the aesthetics of old computers like the SGI Indy, SPARCstation, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them.
 
 This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, as the software half of the platform design is being completely rewritten.
 
 **Old World projects:**
 
-- [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, file mapping, and other fancy features (no SMP though, and stuck at 32 bits!). Was successfully ported to the [fox32](https://github.com/fox32-arch/fox32) architecture.
+- [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other fancy features (no SMP though, and stuck at 32 bits!). Was successfully ported to the [fox32](https://github.com/fox32-arch/fox32) architecture.
 - [sdk](https://github.com/xrarch/sdk) was a development toolchain written in Lua.
     - [dragonfruit](https://github.com/xrarch/sdk/tree/master/dragonfruit) was a (very crummy) systems programming language with RPN syntax.
     - [asmfx](https://github.com/xrarch/sdk/tree/master/asmfx) was a retargetable assembler.
@@ -30,7 +30,7 @@ I got all of that done, but the largest parts were created with a very, very bad
     - [ ] [xrbt](https://github.com/xrarch/newsdk/tree/main/XrBuildTool) will be a custom build system, supporting multithreaded builds.
     - [ ] [xrasm](https://github.com/xrarch/newsdk/tree/main/XrAsm) will be a retargetable assembler.
     - [ ] [xrlink](https://github.com/xrarch/newsdk/tree/main/XrLink) will be a retargetable linker, with support for static and dynamic linking of a custom object file format.
-- [ ] [MINTIA (Jackal)](https://github.com/xrarch/mintia2) will be the rewritten, new and improved operating system. It will support SMP, preemptive multitasking, demand paging, dynamic linking, file mapping, and other fancy features.
+- [ ] [MINTIA (Jackal)](https://github.com/xrarch/mintia2) will be the rewritten, new and improved operating system. It will support SMP, preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other fancy features.
 
 **Writing:**
 
