@@ -1,8 +1,6 @@
-# Hello!
+# Hello! This is my portfolio.
 
 I'm hyenasky (aka Will). I'm a computer science student and I'm fascinated by computer architecture and system software design.
-
-# Portfolio
 
 ## The XR/station Project
 
