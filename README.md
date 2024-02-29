@@ -24,12 +24,12 @@ I got all of that done, but the largest parts were created with a very, very bad
 **New World projects:**
 
 - [x] [xremu](https://github.com/xrarch/xremu) is the emulator, written using C and the SDL library. It has support for simulating multiple CPUs in an SMP configuration. It is capable of being compiled with Emscripten to run in a web browser.
-- [x] [a4x](https://github.com/xrarch/a4x) is the firmware, written in Jackal. It supports hot-switching to the old a3x firmware to boot "old world" operating systems.
 - [ ] [newsdk](https://github.com/xrarch/newsdk) will be a fully self-hosted development toolchain.
     - [x] [Jackal](https://github.com/xrarch/newsdk/tree/main/Jackal) is a self-hosted programming language for systems implementation. Self-hosted means *all* newsdk tools (including the Jackal compiler itself) are implemented in the Jackal language.
     - [ ] [xrbt](https://github.com/xrarch/newsdk/tree/main/XrBuildTool) will be a custom build system, supporting multithreaded builds.
     - [ ] [xrasm](https://github.com/xrarch/newsdk/tree/main/XrAsm) will be a retargetable assembler.
     - [ ] [xrlink](https://github.com/xrarch/newsdk/tree/main/XrLink) will be a retargetable linker, with support for static and dynamic linking of a custom object file format.
+- [x] [a4x](https://github.com/xrarch/a4x) is the firmware, written in Jackal. It supports hot-switching to the old a3x firmware to boot "old world" operating systems.
 - [ ] [MINTIA (Jackal)](https://github.com/xrarch/mintia2) will be the rewritten, new and improved operating system. It will support SMP, preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other fancy features.
 
 **Writing:**
