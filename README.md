@@ -15,7 +15,7 @@ This project has a pretty ludicrous scope of subprojects. These subprojects are 
     - [dragonfruit](https://github.com/xrarch/sdk/tree/master/dragonfruit) was a (very crummy) systems programming language with RPN syntax.
     - [asmfx](https://github.com/xrarch/sdk/tree/master/asmfx) was a retargetable assembler.
     - [xoftool](https://github.com/xrarch/sdk/tree/master/xoftool) was a retargetable linker, with support for static and dynamic linking of a custom object file format.
-- [a3x](https://github.com/xrarch/a4x) was the old firmware, written in dragonfruit.
+- [a3x](https://github.com/xrarch/a3x) was the old firmware, written in dragonfruit.
 - [aisix](https://github.com/xrarch/aisix) was an early attempt to write a UNIXy operating system. It supported preemptive multitasking.
 - **emu** was an early emulator written in Lua, using the Love2D framework.
 
