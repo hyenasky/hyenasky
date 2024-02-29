@@ -2,24 +2,24 @@
 
 I'm hyenasky (aka 'will'). I'm a computer science student who is fascinated by computer architecture, and systems software design.
 
-## Portfolio
+# Portfolio
 
 ## The XR/station Project
 
-[XR/station](https://xrarch.github.io) is a fully handmade RISC workstation platform, 100% designed and implemented by myself. It was inspired in 2018 by old computers like the SGI Indy, SPARCstation 20, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them.
+[XR/station](https://xrarch.github.io) is a fully handmade RISC workstation platform, 100% designed and implemented by myself. It began in 2018 after I was inspired by old computers like the SGI Indy, SPARCstation 20, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them.
 
 This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, as the software half of the platform design is being completely rewritten.
 
 **Old World projects:**
 
-- [x] [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, file mapping, and other fancy features (no SMP though, and stuck at 32 bits!). Was successfully ported to the [fox32](https://github.com/fox32-arch/fox32) architecture.
-- [x] [sdk](https://github.com/xrarch/sdk) was a development toolchain written in Lua.
-    - [x] [dragonfruit](https://github.com/xrarch/sdk/tree/master/dragonfruit) was a (very crummy) systems programming language with RPN syntax.
-    - [x] [asmfx](https://github.com/xrarch/sdk/tree/master/asmfx) was a retargetable assembler.
-    - [x] [xoftool](https://github.com/xrarch/sdk/tree/master/xoftool) was a retargetable linker, with support for static and dynamic linking of a custom object file format.
-- [x] [a3x](https://github.com/xrarch/a4x) was the old firmware, written in dragonfruit.
-- [x] [aisix](https://github.com/xrarch/aisix) was an early attempt to write a UNIXy operating system. It supported preemptive multitasking.
-- [x] **emu** was an early emulator written in Lua, using the Love2D framework.
+- [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, file mapping, and other fancy features (no SMP though, and stuck at 32 bits!). Was successfully ported to the [fox32](https://github.com/fox32-arch/fox32) architecture.
+- [sdk](https://github.com/xrarch/sdk) was a development toolchain written in Lua.
+    - [dragonfruit](https://github.com/xrarch/sdk/tree/master/dragonfruit) was a (very crummy) systems programming language with RPN syntax.
+    - [asmfx](https://github.com/xrarch/sdk/tree/master/asmfx) was a retargetable assembler.
+    - [xoftool](https://github.com/xrarch/sdk/tree/master/xoftool) was a retargetable linker, with support for static and dynamic linking of a custom object file format.
+- [a3x](https://github.com/xrarch/a4x) was the old firmware, written in dragonfruit.
+- [aisix](https://github.com/xrarch/aisix) was an early attempt to write a UNIXy operating system. It supported preemptive multitasking.
+- **emu** was an early emulator written in Lua, using the Love2D framework.
 
 I got all of that done, but unfortunately, the largest parts were created with a very, very bad programming language that I created when I was 15 years old. It unfortunately now amounts to about 150,000 lines, so rewriting it obviously isn't an option. SIKE! Around March 2023, I decided to do a new self-hosted toolchain and rewrite everything using that. Here's the progress:
 
