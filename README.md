@@ -1,6 +1,6 @@
-# hello!
+# Hello!
 
-I'm hyenasky (aka 'will'). I'm a computer science student who is fascinated by computer architecture, and systems software design.
+I'm hyenasky (aka Will). I'm a computer science student and I'm fascinated by computer architecture and system software design.
 
 # Portfolio
 
