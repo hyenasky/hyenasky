@@ -6,11 +6,9 @@ I'm hyenasky (aka Will). I'm a computer science student and I'm fascinated by co
 
 [XR/station](https://xrarch.github.io) is a fully handmade computer platform, 100% designed and implemented by myself. It began in 2018 after I was inspired by the aesthetics of old computers like the SGI Indy, SPARCstation, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them.
 
-This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, since the software half of the platform design is currently being completely rewritten.
+This project has a pretty ludicrous scope of subprojects. Note that some of these are currently undergoing rewrites, and the new versions can be found in the [GitHub organization](https://github.com/xrarch).
 
-**Old World projects:**
-
-- [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other fancy features (no SMP though, and stuck at 32 bits!). Was successfully ported to the [fox32](https://github.com/fox32-arch/fox32) architecture.
+- [MINTIA](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other fancy features (no SMP though, and stuck at 32 bits!). Was successfully ported to the [fox32](https://github.com/fox32-arch/fox32) architecture.
 - [sdk](https://github.com/xrarch/sdk) was a development toolchain written in Lua.
     - [dragonfruit](https://github.com/xrarch/sdk/tree/master/dragonfruit) was a (very crummy) systems programming language with RPN syntax.
     - [asmfx](https://github.com/xrarch/sdk/tree/master/asmfx) was a retargetable assembler.
