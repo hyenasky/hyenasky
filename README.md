@@ -19,7 +19,7 @@ This project has a pretty ludicrous scope of subprojects. These subprojects are 
 - [aisix](https://github.com/xrarch/aisix) was an early attempt to write a UNIXy operating system. It supported preemptive multitasking.
 - **emu** was an early emulator written in Lua, using the Love2D framework.
 
-I got all of that done, but unfortunately, the largest parts were created with a very, very bad programming language that I created when I was 15 years old. These parts unfortunately now amount to ~150,000 lines, so rewriting them obviously isn't an option. SIKE! Around March 2023, I decided to do a new self-hosted toolchain and rewrite everything using that. Here's the progress:
+I got all of that done, but the largest parts were created with a very, very bad programming language that I created when I was 15 years old. These parts unfortunately now amount to ~150,000 lines, so rewriting them obviously isn't an option. SIKE! Around March 2023, I decided to do a new self-hosted toolchain and rewrite everything using that. Here's the progress:
 
 **New World projects:**
 
