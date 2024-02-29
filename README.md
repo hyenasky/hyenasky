@@ -32,6 +32,11 @@ I got all of that done, but the largest parts were created with a very, very bad
     - [ ] [xrlink](https://github.com/xrarch/newsdk/tree/main/XrLink) will be a retargetable linker, with support for static and dynamic linking of a custom object file format.
 - [ ] [MINTIA (Jackal)](https://github.com/xrarch/mintia2) will be the rewritten, new and improved operating system. It will support SMP, preemptive multitasking, demand paging, dynamic linking, file mapping, and other fancy features.
 
+**Writing:**
+
+- [XR/17032 Architecture Handbook](https://raw.githubusercontent.com/xrarch/books/main/xr17032handbook/main.pdf)
+- [XR/computer System Design Handbook](https://raw.githubusercontent.com/xrarch/books/main/xrcomputerbook/main.pdf)
+
 <img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/a4xfirmware.png" width="280" alt="a4x Boot Picker"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldmintia.png" width="280" alt="Dragonfruit MINTIA"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldaisix.png" width="280" alt="Aisix">
 
 ## Booting the April 1991 Windows NT Build
