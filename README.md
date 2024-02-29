@@ -6,7 +6,7 @@ I'm hyenasky (aka Will). I'm a computer science student and I'm fascinated by co
 
 [XR/station](https://xrarch.github.io) is a fully handmade computer platform, 100% designed and implemented by myself. It began in 2018 after I was inspired by the aesthetics of old computers like the SGI Indy, SPARCstation, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them.
 
-This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, as the software half of the platform design is being completely rewritten.
+This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, since the software half of the platform design is currently being completely rewritten.
 
 **Old World projects:**
 
