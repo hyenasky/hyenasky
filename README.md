@@ -4,13 +4,13 @@ I'm hyenasky (aka 'will'). I'm a computer science student who is fascinated by c
 
 ## Portfolio
 
-### The XR/station Project
+## The XR/station Project
 
 [XR/station](https://xrarch.github.io) is a fully handmade RISC workstation platform, 100% designed and implemented by myself. It was inspired in 2018 by old computers like the SGI Indy, SPARCstation 20, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them.
 
 This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, as the software half of the platform design is being completely rewritten.
 
-#### Old World:
+### Old World:
 
 - [x] [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, file mapping, and other fancy features (no SMP though, and stuck at 32 bits!).
 - [x] [sdk](https://github.com/xrarch/sdk) was a development toolchain written in Lua.
@@ -23,7 +23,7 @@ This project has a pretty ludicrous scope of subprojects. These subprojects are 
 
 I got all of that done, but unfortunately, the largest parts were created with a very, very bad programming language that I created when I was 15 years old. It unfortunately now amounts to about 150,000 lines, so rewriting it obviously isn't an option. SIKE! Around March 2023, I decided to do a new self-hosted toolchain and rewrite everything using that. Here's the progress:
 
-#### New World:
+### New World:
 
 - [x] [xremu](https://github.com/xrarch/xremu) is the emulator, written using C and the SDL library. It has support for simulating multiple CPUs in an SMP configuration. It is capable of being compiled with Emscripten to run in a web browser.
 - [x] [a4x](https://github.com/xrarch/a4x) is the firmware, written in Jackal. It supports hot-switching to the old a3x firmware to boot "old world" operating systems.
@@ -34,7 +34,7 @@ I got all of that done, but unfortunately, the largest parts were created with a
     - [ ] [xrlink](https://github.com/xrarch/newsdk/tree/main/XrLink) will be a retargetable linker, with support for static and dynamic linking of a custom object file format.
 - [ ] [MINTIA (Jackal)](https://github.com/xrarch/mintia2) will be the rewritten, new and improved operating system. It will support SMP, preemptive multitasking, demand paging, dynamic linking, file mapping, and other fancy features.
 
-### Booting the April 1991 Windows NT Build
+## Booting the April 1991 Windows NT Build
 
 In November 2023, ex-Microsoft engineer Jeff Parsons ([@jeffpar](https://github.com/jeffpar)) randomly [uploaded some disk images to GitHub](https://github.com/jeffpar/pcjs-miscdisks/commit/745b046f85939929f6b87baa8e573d2517adc657) which contained a very old Windows NT build, from April 1991, near the dawn of its development.
 
