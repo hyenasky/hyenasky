@@ -10,7 +10,7 @@ I'm hyenasky (aka 'will'). I'm a computer science student who is fascinated by c
 
 This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, as the software half of the platform design is being completely rewritten.
 
-### Old World:
+**Old World projects:**
 
 - [x] [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, file mapping, and other fancy features (no SMP though, and stuck at 32 bits!). Was successfully ported to the [fox32](https://github.com/fox32-arch/fox32) architecture.
 - [x] [sdk](https://github.com/xrarch/sdk) was a development toolchain written in Lua.
@@ -23,7 +23,7 @@ This project has a pretty ludicrous scope of subprojects. These subprojects are 
 
 I got all of that done, but unfortunately, the largest parts were created with a very, very bad programming language that I created when I was 15 years old. It unfortunately now amounts to about 150,000 lines, so rewriting it obviously isn't an option. SIKE! Around March 2023, I decided to do a new self-hosted toolchain and rewrite everything using that. Here's the progress:
 
-### New World:
+**New World projects:**
 
 - [x] [xremu](https://github.com/xrarch/xremu) is the emulator, written using C and the SDL library. It has support for simulating multiple CPUs in an SMP configuration. It is capable of being compiled with Emscripten to run in a web browser.
 - [x] [a4x](https://github.com/xrarch/a4x) is the firmware, written in Jackal. It supports hot-switching to the old a3x firmware to boot "old world" operating systems.
