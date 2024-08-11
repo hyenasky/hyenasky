@@ -1,6 +1,6 @@
 # Hello! This is my portfolio.
 
-I'm hyenasky (aka Will). I'm a computer science student and I'm fascinated by computer architecture and system software design.
+I'm Will (aka hyenasky). I'm a computer science student and I'm fascinated by computer architecture and system software design.
 
 ## The XR/station Project
 
@@ -24,15 +24,15 @@ I got all of that done, but the largest parts were created with a very, very bad
 **New World projects:**
 
 - [x] [xremu](https://github.com/xrarch/xremu) is the emulator, written using C and the SDL library. It has support for simulating multiple CPUs in an SMP configuration. It is capable of being compiled with Emscripten to run in a web browser.
-- [ ] [newsdk](https://github.com/xrarch/newsdk) will be a fully self-hosted development toolchain.
+- [x] [newsdk](https://github.com/xrarch/newsdk) is a fully self-hosted development toolchain.
     - [x] [Jackal](https://github.com/xrarch/newsdk/tree/main/Jackal) is a self-hosted programming language for systems implementation. Self-hosted means *all* newsdk tools (including the Jackal compiler itself) are implemented in the Jackal language.
-    - [ ] [xrbt](https://github.com/xrarch/newsdk/tree/main/XrBuildTool) will be a custom build system, supporting multithreaded builds.
-    - [ ] [xrasm](https://github.com/xrarch/newsdk/tree/main/XrAsm) will be a retargetable assembler.
-    - [ ] [xrlink](https://github.com/xrarch/newsdk/tree/main/XrLink) will be a retargetable linker, with support for static and dynamic linking of a custom object file format.
+    - [x] [xrbt](https://github.com/xrarch/newsdk/tree/main/XrBuildTool) is a custom build system, supporting multithreaded builds.
+    - [x] [xrasm](https://github.com/xrarch/newsdk/tree/main/XrAsm) is a retargetable assembler.
+    - [x] [xrlink](https://github.com/xrarch/newsdk/tree/main/XrLink) is a retargetable linker, with support for static and dynamic linking of a custom object file format.
 - [x] [a4x](https://github.com/xrarch/a4x) is the firmware, written in Jackal. It supports hot-switching to the old a3x firmware to boot "old world" operating systems.
-- [ ] [MINTIA (Jackal)](https://github.com/xrarch/mintia2) will be the rewritten, new and improved operating system. It will support SMP, preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other fancy features.
+- [ ] [MINTIA (Jackal)](https://github.com/xrarch/mintia2) is the rewritten, new and improved operating system. It will support SMP, preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other fancy features.
 
-**Writing:**
+**Writings:**
 
 - [XR/17032 Architecture Handbook](https://raw.githubusercontent.com/xrarch/books/main/xr17032handbook/main.pdf)
 - [XR/computer System Design Handbook](https://raw.githubusercontent.com/xrarch/books/main/xrcomputerbook/main.pdf)
