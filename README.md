@@ -8,20 +8,9 @@ I'm Will (aka hyenasky). I'm a computer science student and I'm fascinated by co
 
 This project has a pretty ludicrous scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, since the software half of the platform design is currently being completely rewritten.
 
-**Old World projects:**
+I got a [full toolchain and operating system](Old.md) done, but the largest parts were created with a very, very bad programming language that I created when I was 15 years old. These parts unfortunately now amount to ~150,000 lines, so rewriting them obviously isn't an option. SIKE! Around March 2023, I decided to do a new self-hosted toolchain and rewrite everything using that. Here's the progress:
 
-- [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other fancy features (no SMP though, and stuck at 32 bits!). Was successfully ported to the [fox32](https://github.com/fox32-arch/fox32) architecture.
-- [sdk](https://github.com/xrarch/sdk) was a development toolchain written in Lua.
-    - [dragonfruit](https://github.com/xrarch/sdk/tree/master/dragonfruit) was a (very crummy) systems programming language with RPN syntax.
-    - [asmfx](https://github.com/xrarch/sdk/tree/master/asmfx) was a retargetable assembler.
-    - [xoftool](https://github.com/xrarch/sdk/tree/master/xoftool) was a retargetable linker, with support for static and dynamic linking of a custom object file format.
-- [a3x](https://github.com/xrarch/a3x) was the old firmware, written in dragonfruit.
-- [aisix](https://github.com/xrarch/aisix) was an early attempt to write a UNIXy operating system. It supported preemptive multitasking.
-- **emu** was an early emulator written in Lua, using the Love2D framework.
-
-I got all of that done, but the largest parts were created with a very, very bad programming language that I created when I was 15 years old. These parts unfortunately now amount to ~150,000 lines, so rewriting them obviously isn't an option. SIKE! Around March 2023, I decided to do a new self-hosted toolchain and rewrite everything using that. Here's the progress:
-
-**New World projects:**
+**Projects:**
 
 - [x] [xremu](https://github.com/xrarch/xremu) is the emulator, written using C and the SDL library. It has support for simulating multiple CPUs in an SMP configuration. It is capable of being compiled with Emscripten to run in a web browser.
 - [x] [newsdk](https://github.com/xrarch/newsdk) is a fully self-hosted development toolchain.
