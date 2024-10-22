@@ -1,4 +1,4 @@
-**Old World projects:**
+**Obsolete projects worth mentioning:**
 
 - [MINTIA (dragonfruit)](https://github.com/xrarch/mintia) was the operating system. It supported preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other fancy features (no SMP though, and stuck at 32 bits!). Was successfully ported to the [fox32](https://github.com/fox32-arch/fox32) architecture.
 - [sdk](https://github.com/xrarch/sdk) was a development toolchain written in Lua.
