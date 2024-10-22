@@ -1,6 +1,6 @@
 # Hello! This is my portfolio.
 
-I'm Will Stach (aka hyenasky), a computer science student who is fascinated by computer architecture and system software design. This is some of the technical work I've done.
+I'm Will Stach (aka hyenasky), a computer science student from Salt Lake City who is fascinated by computer architecture and system software design. This is some of the technical work I've done.
 
 ## The XR/station Project
 
