@@ -4,7 +4,7 @@ I'm Will Stach (aka hyenasky), a computer science student from Salt Lake City wh
 
 ## The XR/station Project
 
-[XR/station](https://xrarch.github.io) is a fully handmade computer platform, 100% designed and implemented by myself. It began in 2018 after I was inspired by the aesthetics of old computers like the SGI Indy, SPARCstation, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them.
+**XR/station** is a fully handmade computer platform, 100% designed and implemented by myself. It began in 2018 after I was inspired by the aesthetics of old computers like the SGI Indy, SPARCstation, and NeXTstation, and has been carried forward by my fascination with computers and a deep desire to learn everything about them. There's a demo emulator on the web [here](https://xrarch.github.io).
 
 This project has a large scope of subprojects. These subprojects are roughly divided into an "old" and "new" world, since the software half of the platform design is currently being completely rewritten.
 
