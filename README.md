@@ -19,7 +19,7 @@ I already got a [full toolchain and operating system](Old.md) done, but the larg
     - [x] [xrasm](https://github.com/xrarch/newsdk/tree/main/XrAsm) is a retargetable assembler.
     - [x] [xrlink](https://github.com/xrarch/newsdk/tree/main/XrLink) is a retargetable linker, with support for static and dynamic linking of a custom object file format.
 - [x] [a4x](https://github.com/xrarch/a4x) is the firmware, written in Jackal. It supports hot-switching to the old a3x firmware to boot "old world" operating systems.
-- [ ] [MINTIA (Jackal)](https://github.com/xrarch/mintia2) is the rewritten, new and improved operating system. It will support SMP preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other features.
+- [ ] [MINTIA2](https://github.com/xrarch/mintia2) is the rewritten, improved operating system. It will support SMP preemptive multitasking, demand paging, dynamic linking, memory-mapped files, and other features.
 
 **XR/station Writings:**
 
@@ -28,7 +28,9 @@ I already got a [full toolchain and operating system](Old.md) done, but the larg
 - [Executable Format Specification](https://raw.githubusercontent.com/xrarch/books/main/documents/xlospec/main.pdf)
 - [Firmware Manual](https://raw.githubusercontent.com/xrarch/books/main/documents/a4xmanual/main.pdf)
 
-<img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/a4xfirmware.png" width="280" alt="a4x Boot Picker"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldmintia.png" width="280" alt="Dragonfruit MINTIA"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldaisix.png" width="280" alt="Aisix">
+<a href="https://github.com/xrarch/a4x"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/a4xfirmware.png" width="280" alt="a4x Boot Picker"></a>
+<a href="https://github.com/xrarch/mintia"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldmintia.png" width="280" alt="Dragonfruit MINTIA"></a>
+<a href="https://github.com/xrarch/aisix"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldaisix.png" width="280" alt="Aisix"></a>
 
 ## Booting the April 1991 Windows NT Build
 
@@ -36,6 +38,6 @@ In November 2023, ex-Microsoft engineer Jeff Parsons ([@jeffpar](https://github.
 
 I was recruited by the BetaWiki community and in the span of about 5 days, I was able to jerry-rig a [machine in MAME](https://github.com/hyenasky/mame-r3kjazz) for the "R3000 Jazz" internal development board that this NT build ran on, port the ARC firmware to the R3000 chip and get it to run, and successfully boot the [earliest Windows NT build](https://betawiki.net/wiki/Windows_NT_3.1_April_1991_build) currently known.
 
-I did this work almost single-handedly except for some last minute contributions by [@substanc3-dev](https://github.com/substanc3-dev), who created a script to work around a bug in VirtualBox's serial emulation that was preventing the NT kernel debugger from operating.
+I did this work almost single-handedly except for some last minute contributions by [@substanc3-dev](https://github.com/substanc3-dev), who created a script to work around a mismatch between VirtualBox and MAME's serial emulation that was preventing the NT kernel debugger from operating.
 
 <img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/arc3000.png" width="280" alt="First successful initialization of the R3000 ARC port"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/aprilntboot.png" width="280" alt="R3000 NT starts to boot over debugger console on OS/2"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/aprilntrunning.png" width="280" alt="Ancient NT running :)">
