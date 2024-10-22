@@ -28,9 +28,7 @@ I already got a [full toolchain and operating system](Old.md) done, but the larg
 - [Executable Format Specification](https://raw.githubusercontent.com/xrarch/books/main/documents/xlospec/main.pdf)
 - [Firmware Manual](https://raw.githubusercontent.com/xrarch/books/main/documents/a4xmanual/main.pdf)
 
-<a href="https://github.com/xrarch/a4x"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/a4xfirmware.png" width="280" alt="a4x Boot Picker"></a>
-<a href="https://github.com/xrarch/mintia"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldmintia.png" width="280" alt="Dragonfruit MINTIA"></a>
-<a href="https://github.com/xrarch/aisix"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldaisix.png" width="280" alt="Aisix"></a>
+<a href="https://github.com/xrarch/a4x"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/a4xfirmware.png" width="280" alt="a4x Boot Picker"></a><a href="https://github.com/xrarch/mintia"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldmintia.png" width="280" alt="Dragonfruit MINTIA"></a><a href="https://github.com/xrarch/aisix"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldaisix.png" width="280" alt="Aisix"></a>
 
 ## Booting the April 1991 Windows NT Build
 
