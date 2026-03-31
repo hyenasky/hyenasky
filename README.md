@@ -1,12 +1,10 @@
 # Portfolio
 
-I'm Will Stach (aka hyenasky), a CS student at the University of Utah who is fascinated by computer architecture and system software design. This is some of the technical work I've done.
+I'm Will Stach (aka hyenasky), a CS student at the University of Utah who is fascinated by computer architecture and system software design. This is some of the technical work I've done in my own time.
 
 ## The XR/station Project
 
-**XR/station** is a fully handmade computer platform, 100% designed and implemented by myself. It began in 2018, inspired by the aesthetics of old computers like the SGI Indy, SPARCstation, and NeXTstation, and has been carried forward by a fascination with computers and a deep desire to learn everything about them. There's a demo emulator on the web [here](https://xrarch.github.io).
-
-This project has a large scope of subprojects. A [full toolchain and operating system](Old.md) were completed, but the largest parts were created with a poor programming language. Around March 2023, it was decided to do a new self-hosted toolchain with an improved programming language, and rewrite everything using that. Here's the progress.
+**XR/station** is a fully handmade computer platform, 100% designed and implemented by myself. It began in 2018, inspired by the aesthetics of old computers like the SGI Indy, SPARCstation, and NeXTstation, and has been carried forward by a fascination with computers and a deep desire to learn everything about them. There's a demo emulator on the web [here](https://xrarch.github.io). In March of 2023, I decided to create a new fully self-hosting toolchain with an improved programming language, and rewrite everything using that. Here's the progress.
 
 **Projects:**
 
@@ -16,8 +14,8 @@ This project has a large scope of subprojects. A [full toolchain and operating s
     - [x] [xrbt](https://github.com/xrarch/newsdk/tree/main/XrBuildTool) is a custom build system, supporting multithreaded builds.
     - [x] [xrasm](https://github.com/xrarch/newsdk/tree/main/XrAsm) is a retargetable assembler.
     - [x] [xrlink](https://github.com/xrarch/newsdk/tree/main/XrLink) is a retargetable linker, with support for static and dynamic linking of a custom object file format.
-- [x] [a4x](https://github.com/xrarch/a4x) is the firmware, written in Jackal. It supports hot-switching to the old a3x firmware to boot "old world" operating systems.
-- [ ] [MINTIA2](https://github.com/xrarch/mintia2) is the rewritten, improved operating system. It is portable and supports SMP preemptive multitasking. It will soon support demand paging, dynamic linking, memory-mapped files, and other features.
+- [x] [a4x](https://github.com/xrarch/a4x) is the firmware, written in Jackal.
+- [ ] [MINTIA2](https://github.com/xrarch/mintia2) is my in-progress operating system. It is portable and supports SMP preemptive multitasking. It will soon support demand paging, dynamic linking, memory-mapped files, and other features, as its predecessor [MINTIA1](https://github.com/xrarch/mintia) did.
 
 **XR/station Writings:**
 
