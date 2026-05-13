@@ -19,10 +19,10 @@ I'm Will Stach (aka hyenasky), a CS student at the University of Utah who is fas
 
 **XR/station Writings:**
 
-- [Architecture Handbook](https://raw.githubusercontent.com/xrarch/books/main/xr17032handbook/main.pdf)
-- [Platform Design Handbook](https://raw.githubusercontent.com/xrarch/books/main/xrcomputerbook/main.pdf)
-- [Executable Format Specification](https://raw.githubusercontent.com/xrarch/books/main/documents/xlospec/main.pdf)
-- [Firmware Manual](https://raw.githubusercontent.com/xrarch/books/main/documents/a4xmanual/main.pdf)
+- [Architecture Handbook](https://raw.githubusercontent.com/xrarch/pdfs/main/xr17032handbook.pdf)
+- [Platform Design Handbook](https://raw.githubusercontent.com/xrarch/pdfs/main/xrcomputerbook.pdf)
+- [Executable Format Specification](https://raw.githubusercontent.com/xrarch/pdfs/main/xlospec.pdf)
+- [Firmware Manual](https://raw.githubusercontent.com/xrarch/pdfs/main/a4xmanual.pdf)
 
 <a href="https://github.com/xrarch/a4x"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/a4xfirmware.png" width="280" alt="a4x Boot Picker"></a><a href="https://github.com/xrarch/mintia"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldmintia.png" width="280" alt="Dragonfruit MINTIA"></a><a href="https://github.com/xrarch/aisix"><img src="https://raw.githubusercontent.com/hyenasky/hyenasky/main/oldaisix.png" width="280" alt="Aisix"></a>
 
